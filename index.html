@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dudukue AI</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="app">
+
+        <!-- HEADER -->
+        <div class="header">
+
+            <div class="logo">
+                🤖
+            </div>
+
+            <div class="judul">
+                <h2>Dudukue AI</h2>
+                <p>Asisten Digital SMK Insan Nur Muhammad</p>
+            </div>
+
+        </div>
+
+
+        <!-- AREA CHAT -->
+        <div class="chat-area" id="chatArea">
+
+            <div class="message ai">
+
+                <div class="avatar">
+                    🤖
+                </div>
+
+                <div class="bubble">
+                    <b>Halo 👋</b>
+                    <br><br>
+
+                    Saya <b>Dudukue AI</b>.
+                    Saya siap membantu menjawab pertanyaan tentang sekolah.
+
+                    <br><br>
+
+                    <b>Contoh pertanyaan:</b>
+
+                    <br><br>
+
+                    📚 Nama sekolah
+                    <br>
+                    👨‍🎓 Ketua OSIS
+                    <br>
+                    📖 Sejarah sekolah
+                    <br>
+                    🏕️ Ekstrakurikuler
+                    <br>
+                    🥋 Paskibra
+                    <br>
+                    🏕️ Pramuka
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- INPUT -->
+        <div class="input-box">
+
+            <input
+                type="text"
+                id="question"
+                placeholder="Tanyakan sesuatu..."
+                autocomplete="off"
+            >
+
+            <button onclick="sendMessage()">
+                ➤
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- DATABASE -->
+    <script src="data.js"></script>
+
+    <!-- SCRIPT UTAMA -->
+    <script src="script.js"></script>
+
+</body>
+</html>
